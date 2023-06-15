@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekawan Furniture</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+    <!-- swiper js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <a href="/">
+
+            <div class="logo">
+                <img src="/img/logo.png" alt="">
+                Dekoor
+            </div>
+        </a>
+        <ul class="list-page">
+            <li class="list">
+                <a href="#about">
+                    About Us
+                </a>
+            </li>
+            <li>
+                <button class="btn" id="btn">
+                    Furniture
+                    <i class="fa-solid fa-angle-down" id="arrow"></i>
+                </button>
+                <div class="dropdown" id="dropdown">
+                    <a href="#category">
+                        Chair
+                    </a>
+                    <a href="#category">
+                        Table
+                    </a>
+                    <a href="#category">
+                        Cabinet
+                    </a>
+                </div>
+            </li>
+            <li class="list">
+                <a href="#partner">
+                    Partnership
+                </a>
+            </li class="list">
+            <li class="list">
+                <a href="#contact">
+                    Contact
+                </a>
+            </li>
+        </ul>
+        <div class="action">
+            <a href="#" class="btn-sign-up">
+                Sign Up
+            </a>
+            <a href="#" class="btn-shop">
+                <img src="/img/shop.png" alt="">
+            </a>
+        </div>
+        <div class="burger">
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <ul class="menu-list">
+                <li><a href="#home">About Us</a></li>
+                <li><a href="#about">Furniture</a></li>
+                <li>
+                    <a href="#achievement">Partnership</a>
+                </li>
+                <li><a href="#project">Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="landing">
+        <div class="description">
+            <h1>The kind of <span>furniture</span> you have been looking for</h1>
+            <div class="action">
+                <a href="">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Search Catalogue
+                </a>
+                <a href="">
+                    <i class="fa-regular fa-circle-play"></i>
+                    Watch Videos
+                </a>
+            </div>
+        </div>
+        <div class="image">
+
+        </div>
+    </div>
+    <div class="about" id="about">
+        <p>Why Choose Us?</p>
+        <p>We care about details and the quality of our products</p>
+        <ul>
+            <li>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <p>MANIFACTURED WITH QUALITY MATERIALS</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-5"></i>
+                <p>5 YEAR OF WARRANTY FOR EACH PRODUCT</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-briefcase"></i>
+                <p>20 YEARS OF EXPERTISE</p>
+            </li>
+        </ul>
+    </div>
+    <div class="partner" id="partner">
+        <div class="count">
+            <h1>25+</h1>
+            <p>PARTNERED BRAND</p>
+        </div>
+        <div class="brand">
+            <img src="/img/brand/gusto.png" alt="">
+            <img src="/img/brand/stripe.png" alt="">
+            <img src="/img/brand/treehouse.png" alt="">
+            <img src="/img/brand/upwork.png" alt="">
+        </div>
+    </div>
+    <div class="category" id="category">
+        <div class="image">
+            <img src="/img/category/living.png" alt="">
+            <img src="/img/category/sofa.png" alt="">
+            <img src="/img/category/tv.png" alt="">
+        </div>
+        <div class="description">
+            <p>Categories</p>
+            <p>Furniture Sets Recommendations</p>
+            <ul>
+                <li>
+                    Bedroom
+                    <p>Enjoy a great living room aesthetics with your family Designs created for increased
+                        comfortability</p>
+                </li>
+                <li>
+                    Living Room
+                    <p>Enjoy a great living room aesthetics with your family Designs created for increased
+                        comfortability</p>
+                </li>
+                <li>
+                    Dining Room
+                    <p>Enjoy a great living room aesthetics with your family Designs created for increased
+                        comfortability</p>
+                </li>
+                <li>
+                    Home Office
+                    <p>Enjoy a great living room aesthetics with your family Designs created for increased
+                        comfortability</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="product" id="product">
+        <div class="description">
+            <div>
+                <p>OUR PRODUCTS</p>
+                <p>This month's best seller</p>
+            </div>
+            <a href="#">SEE MORE</a>
+        </div>
+        <div class="swiper photos">
+            <div class="swiper-wrapper"></div>
+            <div class="swiper-navigation">
+                <div class="swiper-button-prev">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="deals" id="deals">
+        <p>Limited Deals</p>
+        <p>Become a member and get 10% off of your first purchase</p>
+        <form class="textfield">
+            <input type="email" placeholder="Enter your email here" />
+            <button type="submit" class="send">
+                <i class="fa-regular fa-envelope"></i>
+            </button>
+        </form>
+    </div>
+    <div class="footer" id="contact">
+        <div class="description">
+            <div class="logo">
+                <img src="/img/logo.png" alt="">
+                Dekoor
+            </div>
+            <p>Dekoor is a furniture company created to fulfill the needs of family with aesthetic feeling in their
+                furniture. Always pay attention to details and give clear communication for the customers. Priority of
+                our design is comfortability.</p>
+            <p>©Copyright 2022 Dekoor</p>
+        </div>
+        <div class="list">
+            <ul>
+                <li class="title">Support</li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">Care guide</a></li>
+                <li><a href="#">Redeem warranty</a></li>
+            </ul>
+            <ul>
+                <li class="title">Social Media</li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">TikTok</a></li>
+            </ul>
+            <ul>
+                <li class="title">About Us</li>
+                <li><a href="#">Our story</a></li>
+                <li><a href="#">Designer</a></li>
+                <li><a href="#">Craftmanship</a></li>
+                <li><a href="#">Sustainability</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        const dropdownBtn = document.getElementById("btn");
+        const dropdownMenu = document.getElementById("dropdown");
+        const toggleArrow = document.getElementById("arrow");
+
+        const toggleDropdown = function () {
+            dropdownMenu.classList.toggle("show");
+            toggleArrow.classList.toggle("arrow");
+        };
+
+        dropdownBtn.addEventListener("click", function (e) {
+            e.stopPropagation();
+            toggleDropdown();
+        });
+
+        var swiper = new Swiper(".photos", {
+            grabCursor: true,
+            slidesPerView: 'auto',
+            spaceBetween: 30,
+            loop: true,
+
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+        $.get("https://648963185fa58521caaf8533.mockapi.io/Furniture", function (data) {
+            data.forEach((product) => {
+                $(".swiper-wrapper").append(`
+    <div class="swiper-slide">
+        <img src="${product.image}" alt="product" />
+        <div class="detail-product">
+            <span class="price-tag">$${product.price}</span>
+            <span class="product-name">${product.name}</span>
+        </div>
+    </div>
+    `);
+            });
+        });
+    </script>
+</body>
+
+</html>
